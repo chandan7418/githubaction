@@ -1,0 +1,14 @@
+name: prasant-singh
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  demo:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: greetings
+        run: echo "hello github"
